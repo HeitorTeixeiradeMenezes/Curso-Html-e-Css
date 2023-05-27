@@ -6,11 +6,11 @@ body{
 
 
 h1{
-    color:rgb(115, 255, 0);
+    color:rgb(55, 0, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     font-size: 151px;
     font-style: oblique;
-    -webkit-text-stroke: 1px green;
+    -webkit-text-stroke: 1px rgb(60, 0, 128);
     text-align: center;
     text-decoration: underline;
 }
