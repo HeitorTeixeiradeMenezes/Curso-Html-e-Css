@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(216, 216, 216);
+
+}
+
+
+
+h1{
+    color:rgb(115, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 151px;
+    font-style: oblique;
+    -webkit-text-stroke: 1px green;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+}
+p{
+    text-align: left;
+    text-indent: 28px;
+    font-size: 25px;
+    background-color: rgb(230, 230, 255);
+    font-variant: small-caps;
+
+}
+a{
+    text-decoration: none;
+}
+
+.destaque {
+    color: rgb(247, 0, 255); font-weight: bold; text-align: left;
+}
+
+.emcima {
+    font-size: small;
+}
+
+#destaque {
+    font-size: 25px; color: rgba(24, 16, 16, 0.603);
+}
