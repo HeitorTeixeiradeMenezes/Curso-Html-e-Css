@@ -18,3 +18,18 @@ h2{
 b{
     color: #3324fd;
 }
+.link{
+    text-align: right;
+}
+.link button{
+    width: 120px;
+    height: 120px;
+    font-size: larger;
+    background-color: rgba(162, 154, 233, 0.651);
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+ .link button:hover{
+    background-color: #2980b9
+ }
