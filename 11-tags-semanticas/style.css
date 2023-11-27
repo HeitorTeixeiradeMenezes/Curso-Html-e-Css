@@ -14,8 +14,7 @@ header{
     background-size: cover;
     background-position: center;
     margin: auto;
-
-
+    padding: 1px;
 }
 
 .header{
@@ -23,8 +22,8 @@ header{
     margin-top: 30px;
     padding-top: 40px;
     margin: 20px;
-
 }
+
 .header a { background-color: rgba(0, 0, 0, 0.507);
   padding: 10px 15px;
   border: white 1.5px solid;
@@ -48,21 +47,20 @@ h1{
 }
 .start{
     text-align: center;
+}
+.start2{
+    text-align: right;
     background-color: rgba(0, 0, 0, 0.507);
-    margin: auto;
-    width: 500px;
-    padding: 10px;
+    display: inline;
+    padding: 10px 30px;
     border-bottom: solid white;
     color: white;
     -webkit-text-stroke: 0.3px black;
-    
 }
 /* fim Header */
 
 /*main */
-
 main{
-    
     margin: auto;
     max-width: 800px;
     min-width: 400px;
@@ -73,26 +71,38 @@ section{
     border-radius: 5px;
     padding: 1px 20px 20px 20px;
     margin: 15px;
-    
 }
 
 h2{
     background-color: rgba(12, 4, 4, 0.089);
     padding: 5px;
-    border-bottom: solid rgba(0, 0, 0, 0.219);
-    
+    border-bottom: solid rgba(0, 0, 0, 0.219);  
+}
+p{
+    text-align: justify;
 }
 a{
     background-color: rgba(0, 0, 0, 0.315);
     padding: 10px;
     color: blue;
 }
+img{
+    float: right;
+    margin: 0px 10px;
+    box-shadow: 5px 5px 5px gray;
+    border: solid;
+    border-radius: 9px;
+}
 
+/* Fotter */
 footer{
-    text-align: center;
     background-color: gray;
     padding: 2px;
 }
+footer p{
+    text-align: center;
+}
+
 
 
 
