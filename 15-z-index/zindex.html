@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{  background-color: brown;
+        padding: 10px;
+        border: solid;
+        margin-bottom: 5px;
+        width: 50%;
+    }
+    #div2grupo2{
+        position: absolute;
+        top: 0;
+        left: 90px;
+        width: 270px;
+        background-color: red;
+    }
+    #div2{
+        background-color: gray;
+        top: 100px;
+        left: 0;
+    }
+    #div3{
+        background-color: blue;
+        z-index: 2;
+        position: relative;
+        z-index: 0;
+        }
+    
+    #div4{
+        background-color: yellow;
+        position: relative;
+        bottom: 25px;
+        z-index: 1;
+    }
+</style>
+<body>
+    <div id="div1">Div1 grupo 1 
+        <div id="div2">Div2 grupo 1 
+            <div id="div3">Div3 grupo 1</div>
+            <div id="div4">Div4 grupo 1</div></div></div>
+
+    <div id="div1grupo2">Div1 grupo 1 
+            <div id="div2grupo2">Div2 grupo 1 
+                <div id="div3grupo2">Div3 grupo 1</div>
+                <div id="div4grupo2">Div4 grupo 1</div></div></div>
+
+
+
+
+    
+</body>
+</html>
