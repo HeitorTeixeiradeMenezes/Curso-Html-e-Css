@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flexBox{
+        height: 250px;
+        border: 3px solid red;
+        display: flex;
+        margin-bottom: 16px;
+        width: 500px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .flexBox div{
+        border: 2px solid yellow;
+        width: 140px;
+        margin: 15px;
+    }
+    .flexContainer2 {
+        flex-flow: row wrap;
+        margin-bottom: 15px;
+        justify-content: space-around;
+    }
+    .flexContainer2 div{
+        width: 30px;
+        margin: 0;
+    }
+    .flexContainer3 {
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .flexContainer3 div{
+        width: 30px;
+    }
+
+    .flexContainer4 {
+        justify-content: space-around;
+        align-items: baseline;
+
+    }
+    .flexContainer4 div{
+        width: 30px;
+    }
+
+    .flexContainer5 {
+        justify-content: center;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+    .flexContainer5 div{
+        width: 140px;
+
+    }
+
+
+</style>
+<body>
+    <div class="flexBox flexContainer">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+    <div class="flexBox flexContainer2">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+    <div class="flexBox flexContainer3">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+
+    <div class="flexBox flexContainer4">
+        <div class="div1">1</div>
+        <div class="div2" style="font-size: 36px;">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+
+    <div class="flexBox flexContainer5">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+
+    
+</body>
+</html>
