@@ -11,7 +11,6 @@
         border: 3px solid red;
         display: flex;
         margin-bottom: 16px;
-        width: 500px;
         margin: auto;
         margin-bottom: 15px;
     }
@@ -56,6 +55,85 @@
         width: 140px;
 
     }
+     .flexContainer6 {
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+    .flexContainer6 div{
+        background-color: rgb(10, 181, 248);
+        width: 50px;
+        height: 50px;
+    }
+
+    .flexContainer7 {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    .flexContainer7 div{
+        background-color: rgb(10, 181, 248);
+        width: 50px;
+        height: 50px;
+    }
+    .flexContainer7 .div2{
+        flex-basis: 200px;
+    }
+
+    .flexContainer8 {
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .flexContainer8 div{
+     
+       background-color: aqua;
+       margin: 0px;
+       width: 50px;
+    }
+    .flexContainer8 .div2{
+        flex-grow: 1; /* 1/3 */
+    }
+    .flexContainer8 .div4{
+        flex-grow: 1; /* 2/3  */
+    }
+
+    .flexContainer9 {
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .flexContainer9 div{
+       flex-basis: 150px;
+       background-color: aqua;
+       margin: 0px;
+       width: 50px;
+    }
+    .flexContainer9 .div2{
+        flex-shrink: 1;
+    }
+    .flexContainer9 .div4{
+        flex-shrink: 3;
+    }
+
+    .flexContainer10 {
+        flex-flow: nowrap;
+        margin-bottom: 15px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .flexContainer10 div{
+        width: 50px;
+        height: 50px;
+    }
+    .flexContainer10 .div1{
+        order: 2;
+        align-self: center;
+    }
+    .flexContainer10 .div3{
+        order: 1;
+        align-self: end;
+    }
 
 
 </style>
@@ -97,6 +175,46 @@
         <div class="div4">4</div>
 
     </div>
+
+    <div class="flexBox flexContainer6">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+
+    <div class="flexBox flexContainer7">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+
+    <div class="flexBox flexContainer8">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+
+    <div class="flexBox flexContainer9">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+    <div class="flexBox flexContainer10">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+
 
     
 </body>
