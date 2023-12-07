@@ -1,0 +1,101 @@
+body {
+    background-image: url(Contents/PalmeirasBackground.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden; /* Adicionado para evitar overflow horizontal */
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    padding: 15px;
+    border: black solid;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    min-width: 120px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    min-width: 120px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    border: solid black 3px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+.container li {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.details {
+    /* Adicione regras de estilo conforme necessário */
+}
+
+.name {
+    font-size: 22px;
+}
+
+.email {
+    font-size: 16px;
+}
+
+
+.img img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
+
+/* Adicione regras de mídia para ajustar o layout em diferentes tamanhos de tela */
+@media (max-width: 320px) {
+    h1 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .container {
+        width: 100%;
+        max-width: none;
+        padding: 15px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .email {
+        font-size: 14px;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
