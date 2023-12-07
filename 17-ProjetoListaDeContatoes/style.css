@@ -50,6 +50,7 @@ h1 {
     justify-content: flex-start;
     width: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .details {
@@ -62,6 +63,7 @@ h1 {
 
 .email {
     font-size: 16px;
+    max-width: 110PX;
 }
 
 
@@ -73,29 +75,4 @@ h1 {
     box-shadow: 3px 3px 3px black;
 }
 
-/* Adicione regras de mídia para ajustar o layout em diferentes tamanhos de tela */
-@media (max-width: 320px) {
-    h1 {
-        width: 100%;
-        max-width: none;
-    }
 
-    .container {
-        width: 100%;
-        max-width: none;
-        padding: 15px;
-    }
-
-    .name {
-        font-size: 18px;
-    }
-
-    .email {
-        font-size: 14px;
-    }
-
-    img {
-        width: 50px;
-        height: 50px;
-    }
-}
