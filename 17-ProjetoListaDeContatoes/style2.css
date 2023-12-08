@@ -1,0 +1,84 @@
+body {
+    background-image: url(Contents/PalmeirasBackground.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+    padding: 0;
+    max-width: 900px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden; /* Adicionado para evitar overflow horizontal */
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    padding: 15px;
+    border: black solid;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    min-width: 120px;
+    text-align: center;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    border: solid black 3px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+.container li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 5px;
+    position: relative;
+}
+
+.back{
+   width: 200px;
+   position: static;
+}
+
+.name {
+    font-size: 22px;
+    text-align: center;
+}
+
+.email{
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+
+.img img {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
