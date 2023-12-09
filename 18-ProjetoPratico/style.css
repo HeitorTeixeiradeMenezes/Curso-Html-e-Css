@@ -36,10 +36,7 @@ header{
     color: white;
     display: flex;
 }
-body {
-    max-width: 900px;
-    margin: auto;
-}
+
 .slogan{
     background-color: black;
     margin: 0;
@@ -51,13 +48,20 @@ h1{
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.116);
     padding: 10px;
+    font-family: sans-serif;
 }
+
 .slogan li{
+    color: black;
+    background-color: rgb(236, 204, 236);
     font-size: medium;
     list-style: none;
     border: solid 2px white; 
     border-radius: 15px;
-    width: max-content 30px;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    
 }
 
 h2{
@@ -67,7 +71,7 @@ h2{
 /* Main Content */
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 section{
     background-color: rgb(78, 5, 78);
@@ -91,12 +95,33 @@ section{
     padding: 10px;
 }
 .showMore{
+    text-align: center;
     background-color: rgb(236, 204, 236);
-    width: 200px;
+    width: 100px;
     margin: auto;
     border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
+/* Nossa Acessoria */
+.nossaAcessoria{
+    height: 450px;
+    width: 500px;
+}
+.description{
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    height: 380px;
+    overflow: auto;
+}
 
+/*Contatos*/
 
+.contatos{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
 
