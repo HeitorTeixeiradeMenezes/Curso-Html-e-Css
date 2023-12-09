@@ -1,0 +1,102 @@
+body{
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Header style */
+header{
+    background-color: rgb(78, 5, 78);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid rgba(0, 0, 0, 0.26);
+}
+.header{
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+}
+.header li{
+    margin: 20px;
+    font-size: larger;
+    padding: 10px;
+    border: solid 2px rgb(255, 255, 255);
+    color: white;
+}
+.logo{
+    width: 150px;
+    padding: 10px;
+}
+
+/* Home Style */
+.home{
+    height: 420px;
+    background-position:right;
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+body {
+    max-width: 900px;
+    margin: auto;
+}
+.slogan{
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    background-color: rgba(78, 5, 78, 0.637) ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.116);
+    padding: 10px;
+}
+.slogan li{
+    font-size: medium;
+    list-style: none;
+    border: solid 2px white; 
+    border-radius: 15px;
+    width: max-content 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Main Content */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background-color: rgb(78, 5, 78);
+   border-radius: 15px;
+}
+.projects{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.projects img{
+    width: 250px;
+    border-radius: 15px;
+    height: 150px;
+}
+.projects h3{
+    padding-left: 5px;
+}
+.projects p{
+    width: 220px;
+    padding: 10px;
+}
+.showMore{
+    background-color: rgb(236, 204, 236);
+    width: 200px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+
+
+
