@@ -105,6 +105,10 @@ section{
 }
 
 /* Nossa Acessoria */
+.container2{
+    display: flex;
+    justify-content: center;
+}
 .nossaAcessoria{
     height: 450px;
     width: 500px;
@@ -118,6 +122,10 @@ section{
 }
 
 /*Contatos*/
+.container3{
+    display: flex;
+     justify-content: center;
+}
 
 .contatos{
     color: white;
@@ -143,6 +151,13 @@ section{
     border-radius: 25px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+/* Fotter*/
+footer{
+    background-color: rgb(236, 204, 236);
+    padding: 5px;
+    text-align: center;
+    color: white;
 }
 
 
@@ -269,44 +284,64 @@ section{
     }
     
     /* Nossa Acessoria */
+    .container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .nossaAcessoria{
-        height: 450px;
-        width: 100px;
+        height: 200px;
+        width: 300px;
+        border-radius: 10%;
     }
     .description{
-        width: 200px;
+        width: 250px;
+        height: 280px;
         color: white;
+        font-size: 13px;
         margin: 10px;
         padding: 20px;
-        height: 380px;
         overflow: auto;
     }
     
     /*Contatos*/
+    .container3{
+        display: flex;
+     justify-content: center;
+    }
     
     .contatos{
         color: white;
         margin: 10px;
         padding: 10px;
+        width: 100px;
     }
     .insta{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
     .zap{
-        width: 180px;
-        height: 170px;
-        padding: 13px 10px 15.5px 10px;
+        width: 90px;
+        height: 85px;
+        padding: 5px 0px 0px 5px;
     }
     .contatos h3{
         text-align: center;
         color: black;
         border-bottom: rgb(0, 0, 0);
         background-color: rgb(236, 204, 236);
-        width: 140px;
+        width: 80px;
+        font-size: 13px;
         margin: auto;
         border-radius: 25px;
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+    /* Fotter*/
+    footer{
+        background-color: rgb(236, 204, 236);
+        text-align: center;
+        color: white;
+        font-size: 11px;
     }
  }
