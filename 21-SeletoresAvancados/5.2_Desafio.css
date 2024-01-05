@@ -1,0 +1,24 @@
+a[target="_blank"]::after{
+    content: url(/21-SeletoresAvancados/5.2_newWindow-icon.png);
+}
+
+a[href$=".pdf"]::before{
+    content: url(/21-SeletoresAvancados/5.3_pdf-icon.gif);
+}
+
+input[type="checkbox"]:checked + label{
+    color: green;
+}
+
+input[type="checkbox"] + label{
+    color: red;
+}
+
+input[type="checkbox"]:disabled + label{
+    color: blue;
+}
+
+li li:nth-of-type(3){
+    background-color: aqua;
+}
+

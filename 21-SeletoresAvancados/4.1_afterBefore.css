@@ -1,0 +1,38 @@
+p::before{
+    content: "ANTES ";
+}
+
+p::after{
+    content: " Depois";
+}
+
+div{
+    border: 4px solid red;
+    padding: 20px;
+    position: relative;
+}
+
+p{
+    margin: 0;
+}
+
+div::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div::after{
+    content: url(/21-SeletoresAvancados/4.2_imagem.png);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+}
